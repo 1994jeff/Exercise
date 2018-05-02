@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="menu_styleable">
+        <attr name="imgSrc" format="reference"/>
+        <attr name="textStr" format="string"/>
+        <attr name="backgroundColor" format="reference"/>
+        <attr name="borderColor" format="reference"/>
+        <attr name="textColor" format="reference"/>
+    </declare-styleable>
+
+</resources>
