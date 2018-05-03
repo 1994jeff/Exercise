@@ -6,7 +6,7 @@ package com.grandstream.jfdeng.exercise.view;
 
 public interface BreathView {
 
-    void showStatus();
+    void showStatus(int i);
 
     void endPlay();
 }

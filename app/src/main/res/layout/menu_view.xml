@@ -3,6 +3,7 @@
               xmlns:jeff="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
               android:orientation="horizontal">
 
     <com.grandstream.jfdeng.exercise.ui.common.ItemView
@@ -11,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         jeff:textStr="@string/app_name"
-        jeff:imgSrc="@mipmap/ic_launcher"
+        jeff:imgSrc="@mipmap/heart1"
         />
 
     <com.grandstream.jfdeng.exercise.ui.common.ItemView
@@ -20,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         jeff:textStr="@string/app_name"
-        jeff:imgSrc="@mipmap/ic_launcher"
+        jeff:imgSrc="@mipmap/heart5"
         />
 
     <com.grandstream.jfdeng.exercise.ui.common.ItemView
@@ -29,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         jeff:textStr="@string/app_name"
-        jeff:imgSrc="@mipmap/ic_launcher"
+        jeff:imgSrc="@mipmap/heart19"
         />
 
     <com.grandstream.jfdeng.exercise.ui.common.ItemView
@@ -38,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         jeff:textStr="@string/app_name"
-        jeff:imgSrc="@mipmap/ic_launcher"
+        jeff:imgSrc="@mipmap/heart16"
         />
 
 

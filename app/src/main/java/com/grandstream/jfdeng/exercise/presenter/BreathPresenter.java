@@ -22,16 +22,19 @@ public class BreathPresenter extends BasePresenter{
     public BreathPresenter(BreathView breathView,Context context) {
         this.breathView = breathView;
         this.context = context;
-        breathModel = new BreathModelImpl(context);
+        breathModel = new BreathModelImpl(context,this,0);
     }
 
     public void startPlay(int i) {
         breathModel.startPlay(i);
-        breathView.showStatus();
     }
 
     public void endPlay() {
         breathModel.endPlay();
         breathView.endPlay();
+    }
+
+    public void showStatus(int i) {
+        breathView.showStatus(i);
     }
 }

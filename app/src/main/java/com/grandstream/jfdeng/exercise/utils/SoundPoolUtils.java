@@ -28,9 +28,9 @@ public class SoundPoolUtils {
             if (spPool == null) {
                 spPool = new SoundPool(3, AudioManager.STREAM_MUSIC, 0);
                 map = new HashMap<>();
-                map.put(1, spPool.load(context, R.raw.level, 1));
-                map.put(2, spPool.load(context, R.raw.dead, 1));
-                map.put(3, spPool.load(context, R.raw.eat, 1));
+                map.put(1, spPool.load(context, R.raw.shousuo, 1));
+                map.put(2, spPool.load(context, R.raw.fangsong, 1));
+                map.put(3, spPool.load(context, R.raw.comon, 1));
                 spPool.setOnLoadCompleteListener(new SoundPool.OnLoadCompleteListener() {
                     @Override
                     public void onLoadComplete(SoundPool soundPool, int sampleId, int status) {

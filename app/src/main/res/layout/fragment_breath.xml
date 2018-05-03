@@ -31,24 +31,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/normal_exercise"
-            />
+            android:background="@drawable/btn_shape_corner"/>
         <Button
             android:id="@+id/buttonStro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/strong_exercise"
+            android:background="@drawable/btn_shape_corner"
             />
         <Button
             android:id="@+id/buttonSuper"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/super_exercise"
+            android:background="@drawable/btn_shape_corner"
             />
         <Button
             android:id="@+id/buttonEnd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/end_exercise"
+            android:background="@drawable/btn_shape_corner"
             />
     </LinearLayout>
 

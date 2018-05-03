@@ -2,6 +2,7 @@ package com.grandstream.jfdeng.exercise.ui.activity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.grandstream.jfdeng.exercise.R;
 import com.grandstream.jfdeng.exercise.ui.base.BaseActivity;
@@ -35,6 +36,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             case R.id.item4:
                 break;
         }
+        Toast.makeText(this,"亲爱的,功能还在开发哟，期待一下吧！",Toast.LENGTH_SHORT).show();
     }
 
 }
