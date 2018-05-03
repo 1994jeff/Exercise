@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Exercise</string>
     <string name="start_exercise">开始锻炼</string>
+    <string name="normal_exercise">常规锻炼</string>
+    <string name="strong_exercise">强化锻炼</string>
+    <string name="super_exercise">超强锻炼</string>
+    <string name="end_exercise">结束锻炼</string>
+    <string name="go_exercise">去锻炼</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

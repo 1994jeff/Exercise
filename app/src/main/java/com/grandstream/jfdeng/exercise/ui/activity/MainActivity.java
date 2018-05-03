@@ -1,21 +1,12 @@
 package com.grandstream.jfdeng.exercise.ui.activity;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.ViewPager;
 import android.view.View;
-import android.widget.Toast;
 
 import com.grandstream.jfdeng.exercise.R;
-import com.grandstream.jfdeng.exercise.ui.adapter.PagerAdapter;
 import com.grandstream.jfdeng.exercise.ui.base.BaseActivity;
-import com.grandstream.jfdeng.exercise.ui.base.BaseFragment;
 import com.grandstream.jfdeng.exercise.ui.common.MenuView;
 import com.grandstream.jfdeng.exercise.ui.fragment.ExecriseFragment;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -28,7 +19,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 
         mMenuView = (MenuView) findViewById(R.id.menuView);
         mMenuView.setMyListener(this);
-        switchFragment(R.id.fragment_container,new ExecriseFragment());
+        switchFragment(R.id.fragment_container,new ExecriseFragment(),false);
+
     }
 
     @Override
@@ -44,6 +36,5 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
         }
     }
-
 
 }

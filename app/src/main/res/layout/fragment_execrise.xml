@@ -12,7 +12,7 @@
             android:id="@+id/start"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/start_exercise"/>
+            android:text="@string/go_exercise"/>
 
     </LinearLayout>
 

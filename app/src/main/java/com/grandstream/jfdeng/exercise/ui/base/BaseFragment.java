@@ -13,18 +13,24 @@ import com.grandstream.jfdeng.exercise.R;
  * Created by yf on 18-4-28.
  */
 
-public abstract class BaseFragment extends Fragment {
+public abstract class BaseFragment<P extends BasePresenter> extends Fragment {
+
+    public P presenter;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
+        presenter = getPresenter();
         View view = inflater.inflate(getFragmentResource(),container,false);
         initView(view);
         return view;
     }
 
+    public abstract P getPresenter();
+
     protected abstract void initView(View view);
 
     public abstract int getFragmentResource();
+
+    public abstract void onBackPress();
 }
